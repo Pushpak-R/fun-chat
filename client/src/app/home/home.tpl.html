@@ -1,0 +1,12 @@
+<div id="login_cont">
+	<form name="loginForm">
+		<h4>Please enter nickname and get surprise!!!</h4>
+		<hr />
+		<br />
+	  	<div class="form-group">
+		    <label for="name">Nickname :</label>
+		    <input type="text" class="form-control" ng-model="user.name" id="name" required>
+	  	</div>
+	  	<button class="btn btn-primary" ng-click="registerUser()" ng-disabled="loginForm.$invalid">Surprise Me</button>
+  </form>
+</div>

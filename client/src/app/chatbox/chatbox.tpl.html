@@ -1,0 +1,11 @@
+<div id="chatbox_cont">
+	<div id="chatbox" ng-bind-html="conversation"></div>
+	<div id="userList_cont">
+		<ul id="list" >
+		</ul>
+	</div>
+	<div class="form-group">
+		 <input type="text" class="form-control" ng-model="user.chat" id="chat"/>
+		 <button id="sendBtn" class="btn btn-primary" ng-click="sendMsg()">Send</button>
+	</div>
+</div>
